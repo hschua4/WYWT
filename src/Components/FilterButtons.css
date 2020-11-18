@@ -1,0 +1,56 @@
+* {
+  font-family: "Varela Round", sans-serif;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-group button {
+  border: 2px solid #ff1f66;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+}
+
+/* Prevent double borders */
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group button:hover {
+  background-color: #ff1f66;
+  color: #fff;
+}
+
+.btn-group button:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.btn-group button:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.btn-active {
+  background-color: #ff1f66;
+  color: #fff;
+  outline: none;
+}
+
+.btn-inactive {
+  background-color: #fff;
+  color: #ff1f66;
+  outline: none;
+}
+
+@media screen and (max-width: 375px) {
+  .btn-group button {
+    border: 2px solid #ff1f66;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+  }
+}

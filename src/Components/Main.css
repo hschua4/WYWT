@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 88vh;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.chart-title {
+  text-align: center;
+  color: #ff1f66;
+}
+
+.chart-hidden,
+.weight-input-hidden {
+  display: none;
+}

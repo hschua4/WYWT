@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background: #ff1f66;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  font-size: 30px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.header {
+  padding-left: 25px;
+}
+
+.header > i {
+  padding-left: 10px;
+}
